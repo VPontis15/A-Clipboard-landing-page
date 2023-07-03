@@ -574,6 +574,10 @@ body {
   margin-bottom: 4rem;
 }
 
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
 .mb-36 {
   margin-bottom: 9rem;
 }
@@ -586,8 +590,12 @@ body {
   margin-top: 3rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .flex {
@@ -660,7 +668,7 @@ body {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.col-2-heading {
+.col-heading {
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -670,6 +678,19 @@ body {
 }
 
 .col-2-p {
+  max-width: 32ch;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-p {
   max-width: 32ch;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
