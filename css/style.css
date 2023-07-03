@@ -570,6 +570,10 @@ body {
   margin-right: auto;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-36 {
   margin-bottom: 9rem;
 }
@@ -580,6 +584,10 @@ body {
 
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .flex {
@@ -638,7 +646,6 @@ body {
 .content-p {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
   max-width: 54ch;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
