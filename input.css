@@ -21,7 +21,7 @@
 }
 
 .content-p {
-  @apply text-gray-500 max-w-[54ch] mx-auto mb-8;
+  @apply text-gray-500 max-w-[54ch] mx-auto;
 }
 
 .content-heading {
