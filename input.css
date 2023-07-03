@@ -25,5 +25,13 @@
 }
 
 .content-heading {
-  @apply text-4xl font-bold mb-4 text-gray-800;
+  @apply text-4xl font-bold mb-6 text-gray-700;
+}
+
+.col-2-heading {
+  @apply text-xl text-gray-800 font-bold mb-2;
+}
+
+.col-2-p {
+  @apply max-w-[32ch] text-gray-500;
 }
