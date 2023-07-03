@@ -21,7 +21,7 @@
 }
 
 .content-p {
-  @apply text-gray-500 max-w-[54ch] mx-auto;
+  @apply text-slate-400 max-w-[54ch] mx-auto;
 }
 
 .content-heading {
@@ -33,7 +33,7 @@
 }
 
 .col-2-p {
-  @apply max-w-[32ch] text-gray-500;
+  @apply max-w-[32ch] text-slate-400;
 }
 
 .card {
@@ -41,5 +41,5 @@
 }
 
 .card-p {
-  @apply max-w-[32ch] text-gray-500;
+  @apply max-w-[32ch] text-slate-400;
 }
