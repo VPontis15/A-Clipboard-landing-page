@@ -17,19 +17,19 @@
   <body class="header-bg">
     <!-- Container  -->
 
-    <header class="container pt-6 mb-36">
+    <header class="container mb-36 p-8">
       <img class="max-w-full mx-auto mb-8" src="images/logo.svg " alt="" />
       <h2 class="content-heading">A history of everything you copy</h2>
       <p class="content-p mb-8">
         Clipboard allows you to track and organize everything you copy.Instantly
         access your clipboard on all your device.
       </p>
-      <div class="btn-row flex gap-6 justify-center">
+      <div class="btn-row flex flex-col sm:flex-row gap-6 justify-center">
         <button class="download-btn bg-teal-500">Download for IOS</button>
         <button class="download-btn bg-blue-500">Download for Mac</button>
       </div>
     </header>
-    <section class="container mb-36">
+    <section class="container mb-36 p-8">
       <h2 class="content-heading">Keep track of your snippets</h2>
       <p class="content-p mb-8">
         Clipboard instantly stores any item you copy in the cloud, meaning you
@@ -37,11 +37,13 @@
         apps will help you organize everything.
       </p>
     </section>
-    <section class="2cols flex gap-24 max-w-[1440px] mx-auto mb-48">
+    <section
+      class="2cols flex flex-col lg:flex-row p-8 md:p-0 text-center md:text-left md:pd-0 gap-24 max-w-[1440px] mb-48 items-center"
+    >
       <img
-        class="col-1"
+        class="col-1 object-cover max-w-full"
         src="images/image-computer.png"
-        alt="A image of a laptop"
+        alt="A image of a screen"
       />
       <article class="col-2 flex flex-col gap-8">
         <div class="flex flex-col mt-12">
@@ -66,7 +68,7 @@
         </div>
       </article>
     </section>
-    <section class="container mb-16">
+    <section class="container mb-16 p-6">
       <h2 class="content-heading">Access Clipboard anywhere</h2>
       <p class="content-p mb-32">
         Whether you 'are on the go, or at your computer, you can access all your
@@ -78,12 +80,12 @@
         alt="An image of devices that have access of the app"
       />
     </section>
-    <section class="container mb-32">
+    <section class="container mb-24 md:mb-32 p-6">
       <h2 class="content-heading">Supercharge your workflow</h2>
       <p class="content-p mb-20">
         We 've got the tools to boost your productivity.
       </p>
-      <div class="container flex">
+      <div class="container flex flex-col md:flex-row">
         <div class="card container">
           <img class="mb-8" src="images/icon-blacklist.svg" alt="" />
           <h3 class="col-heading">Create icon-blacklist</h3>
@@ -108,22 +110,32 @@
         </div>
       </div>
     </section>
-    <section class="container flex justify-between mb-24">
-      <img class="" src="images/logo-google.png" alt="Logo of Google" />
-      <img class="" src="images/logo-ibm.png" alt="Logo of IBM" />
-      <img class="" src="images/logo-microsoft.png" alt="Logo of Microsoft" />
+    <section
+      class="container flex flex-col md:flex-row gap-8 md:gap-0 mb-24 justify-center lg:justify-between items-center p-6"
+    >
       <img
-        class=""
+        class="company-logo"
+        src="images/logo-google.png"
+        alt="Logo of Google"
+      />
+      <img class="company-logo" src="images/logo-ibm.png" alt="Logo of IBM" />
+      <img
+        class="company-logo"
+        src="images/logo-microsoft.png"
+        alt="Logo of Microsoft"
+      />
+      <img
+        class="company-logo"
         src="images/logo-hp.png"
         alt="Logo Hewlett Packard Enterprise"
       />
       <img
-        class=""
+        class="company-logo"
         src="images/logo-vector-graphics.png"
         alt="Vector Graphics"
       />
     </section>
-    <section class="container mb-16">
+    <section class="container mb-16 p-4">
       <h2 class="content-heading">Clipboard for iOS and Mac OS</h2>
       <p class="content-p mb-8 text-lg">
         Available for free on the App Store. Download for Mac or iDS sync, with
@@ -134,21 +146,23 @@
         <button class="download-btn bg-blue-500">Download for Mac</button>
       </div>
     </section>
-    <footer class="container flex justify-between items-center p-12">
+    <footer
+      class="container flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center p-12"
+    >
       <img class="w-14" src="images/logo.svg" alt="" />
 
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-6 md:gap-4">
         <a class="footer-link" href="#">FAQs</a>
         <a class="footer-link" href="#">Contact Us</a>
       </div>
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-6 md:gap-4">
         <a class="footer-link" href="#">Privacy Policy</a>
         <a class="footer-link" href="#">Press Kit</a>
       </div>
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-6 md:gap-4">
         <a class="footer-link" href="#">Install Quide</a>
       </div>
-      <div class="flex gap-8">
+      <div class="flex mt-6 md:mt-0 gap-8">
         <a href="#">
           <img src="images/icon-facebook.svg" alt="logo of facebook"
         /></a>

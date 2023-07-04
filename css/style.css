@@ -606,6 +606,10 @@ body {
   margin-top: 3rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -664,12 +668,29 @@ body {
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-12 {
   padding: 3rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-lg {
@@ -694,20 +715,34 @@ body {
 
 .content-heading {
   margin-bottom: 1.5rem;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+@media (min-width: 480px) {
+  .content-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
 .col-heading {
   margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .col-heading {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 .col-2-p {
@@ -732,4 +767,77 @@ body {
 .footer-link:hover {
   --tw-text-opacity: 1;
   color: rgb(20 184 166 / var(--tw-text-opacity));
+}
+
+.company-logo {
+  max-width: 10rem;
+  padding: 1rem;
+}
+
+@media (min-width: 480px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:p-0 {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+}
+
+@media (min-width: 976px) {
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:p-8 {
+    padding: 2rem;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .xl\:flex-row {
+    flex-direction: row;
+  }
 }
