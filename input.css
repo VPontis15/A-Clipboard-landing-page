@@ -10,8 +10,8 @@
 }
 
 @layer components {
-  .header-btn {
-    @apply px-6 py-3 rounded-3xl text-white;
+  .download-btn {
+    @apply px-6 py-3 rounded-3xl text-white hover:opacity-70;
   }
 }
 @layer utilities {
