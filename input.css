@@ -44,6 +44,6 @@
   @apply max-w-[32ch] text-slate-400;
 }
 
-.footer-links {
-  @apply hover: text-teal-400;
+.footer-link {
+  @apply hover:text-teal-500;
 }
