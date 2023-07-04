@@ -25,15 +25,15 @@
 }
 
 .content-heading {
-  @apply text-4xl font-bold mb-6 text-gray-700;
+  @apply text-3xl sm:text-4xl font-bold mb-6 text-gray-700;
 }
 
 .col-heading {
-  @apply text-xl text-gray-800 font-bold mb-2;
+  @apply text-2xl lg:text-xl text-gray-800 font-bold mb-2;
 }
 
 .col-2-p {
-  @apply max-w-[32ch] text-slate-400;
+  @apply max-w-[32ch] text-slate-400 text-lg lg:text-base leading-8;
 }
 
 .card {
@@ -46,4 +46,8 @@
 
 .footer-link {
   @apply hover:text-teal-500;
+}
+
+.company-logo {
+  @apply max-w-[10rem] p-4;
 }
