@@ -555,7 +555,7 @@ body {
   }
 }
 
-.header-btn {
+.download-btn {
   border-radius: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -563,6 +563,10 @@ body {
   padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.download-btn:hover {
+  opacity: 0.7;
 }
 
 .mx-auto {
@@ -590,20 +594,16 @@ body {
   margin-bottom: 9rem;
 }
 
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mb-48 {
-  margin-bottom: 12rem;
-}
-
-.mb-60 {
-  margin-bottom: 15rem;
 }
 
 .flex {
@@ -662,11 +662,6 @@ body {
 .bg-teal-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .p-12 {
