@@ -43,3 +43,7 @@
 .card-p {
   @apply max-w-[32ch] text-slate-400;
 }
+
+.footer-links {
+  @apply hover: text-teal-400;
+}
